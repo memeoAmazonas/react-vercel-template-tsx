@@ -3,7 +3,7 @@ export interface ItemMenu {
   to: string;
 }
 
-const itemsMenu: ItemMenu[] = [
+const itemsMenu: Array<ItemMenu> = [
   {
     name: 'home',
     to: `/`,

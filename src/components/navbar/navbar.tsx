@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
-import logo from '~/assets/img/logo.jpg';
+import logo from '~/assets/img/logo.svg';
 import {
   AppBar,
   Box,
