@@ -18,7 +18,7 @@ export const SX = {
   appBar: {
     component: 'nav',
     sx: {
-      bgcolor: 'common.white',
+      bgcolor: 'common.primary',
       boxShadow: 12,
     },
   },

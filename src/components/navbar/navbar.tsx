@@ -18,6 +18,7 @@ import {
 import { ChangeLanguage, useLanguage } from '~/intl';
 import { SX } from '~/components/navbar/style';
 import itemsMenu from '~/components/navbar/items.menu';
+import { ChangeTheme } from '~/theme';
 
 interface Props {
   window?: () => Window;
@@ -77,6 +78,7 @@ export default function Navbar(props: Props) {
               </Button>
             ))}
             <ChangeLanguage />
+            <ChangeTheme />
           </Box>
         </Toolbar>
       </AppBar>

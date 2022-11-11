@@ -1,1 +1,3 @@
-export { default as theme } from './theme';
+export * from './changeTheme';
+export * from './provider';
+export * from './theme';
