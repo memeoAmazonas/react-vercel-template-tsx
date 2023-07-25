@@ -1,4 +1,5 @@
-import { setLanguage, useAppDispatch, useAppSelector } from '~/store';
+import { useAppDispatch, useAppSelector } from '~/store';
+import { setLanguage } from '~/intl';
 import { useIntl } from 'react-intl';
 
 const UseLanguage = () => {

@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
-import { LanguageSlice } from './slice';
+import { LanguageSlice } from '~/intl';
 import { TypedUseSelectorHook, useDispatch, useSelector } from 'react-redux';
 import thunk from 'redux-thunk';
 import logger from 'redux-logger';
